@@ -1,11 +1,11 @@
 [package]
-name = "hello-wasm"
+name = "stateful-wasm-demo"
 version = "0.1.0"
-authors = ["Your Name <you@example.com>"]
-description = "A sample project with wasm-pack"
-license = "MIT/Apache-2.0"
-repository = "https://github.com/yourgithubusername/hello-wasm"
-edition = "2018"
+authors = ["Kane Swartz<kaneswartz@google.com>"]
+description = "a demo to show persistent state in Rust WASM"
+license = "MIT"
+repository = "https://github.com/JavaRip/stateful-wasm-demo"
+edition = "2023"
 
 [lib]
 crate-type = ["cdylib"]
